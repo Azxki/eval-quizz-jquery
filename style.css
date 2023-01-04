@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    background-color: #ccffff;
+}
+
+#para {
+    color: red;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 32%;
+}
+
+#good_rep {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+    text-transform: uppercase;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 140%;
+}
+
+#question1 {
+    background-color: aliceblue;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+#question2 {
+    background-color: aliceblue;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+#question3 {
+    background-color: aliceblue;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+#question4 {
+    background-color: aliceblue;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+#question5 {
+    background-color: aliceblue;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+#question6 {
+    background-color: aliceblue;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+#question7 {
+    background-color: aliceblue;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+#question8 {
+    background-color: aliceblue;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+#question9 {
+    background-color: aliceblue;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+#question10 {
+    background-color: aliceblue;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+#game {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#finish {
+    margin-top: 10px;
+    width: 20%;
+    margin-left: 30%;
+}
+
