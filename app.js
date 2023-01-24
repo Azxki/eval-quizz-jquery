@@ -10,6 +10,7 @@ let question15 = "Vous avez eu faux à la huitième question, la réponse était
 let question17 = "Vous avez eu faux à la neuvième question, la réponse était Atlantique. <br>"
 let question19 = "Vous avez eu faux à la dixième question, la réponse était La guitare. <br>"
 let reponse = "Les mauvaises réponses : <br>"
+let question = document.getElementById('question');
 let r1 = $('#r1');
 let r2 = $('#r2');
 let para = $('#para');
@@ -18,14 +19,18 @@ let para = $('#para');
 //Question 1
 r1.click(() => {
     setTimeout(() => {
-        $('#question1').fadeTo('slow', 0);
+        $('#question1').css('display', 'none');
+        $('#question2').css('display', 'flex');
+        question.innerHTML = "Question 2";
     }, 1000)
     compteur++;
 })
 
 r2.click(() => {
     setTimeout(() => {
-        $('#question1').fadeTo('slow', 0);
+        $('#question1').css('display', 'none');
+        $('#question2').css('display', 'flex');
+        question.innerHTML = "Question 2";
     }, 1000)
     reponse = reponse + question2;
     console.log(reponse);
@@ -34,7 +39,9 @@ r2.click(() => {
 //Question 2
 $('#r3').click(() => {
     setTimeout(() => {
-        $('#question2').fadeTo('slow', 0);
+        $('#question2').css('display', 'none');
+        $('#question3').css('display', 'flex');
+        question.innerHTML = "Question 3";
     }, 1000)
     reponse = reponse + question3;
     console.log(reponse);
@@ -42,7 +49,9 @@ $('#r3').click(() => {
 
 $('#r4').click(() => {
     setTimeout(() => {
-        $('#question2').fadeTo('slow', 0);
+        $('#question2').css('display', 'none');
+        $('#question3').css('display', 'flex');
+        question.innerHTML = "Question 3";
     }, 1000)
     compteur++;
 })
@@ -50,14 +59,18 @@ $('#r4').click(() => {
 //Question 3
 $('#r5').click(() => {
     setTimeout(() => {
-        $('#question3').fadeTo('slow', 0);
+        $('#question3').css('display', 'none');
+        $('#question4').css('display', 'flex');
+        question.innerHTML = "Question 4";
     }, 1000)
     compteur++;
 })
 
 $('#r6').click(() => {
     setTimeout(() => {
-        $('#question3').fadeTo('slow', 0);
+        $('#question3').css('display', 'none');
+        $('#question4').css('display', 'flex');
+        question.innerHTML = "Question 4";
     }, 1000)
     reponse = reponse + question6;
     console.log(reponse);
@@ -66,7 +79,9 @@ $('#r6').click(() => {
 //Question 4
 $('#r7').click(() => {
     setTimeout(() => {
-        $('#question4').fadeTo('slow', 0);
+        $('#question4').css('display', 'none');
+        $('#question5').css('display', 'flex');
+        question.innerHTML = "Question 5";
     }, 1000)
     reponse = reponse + question7;
     console.log(reponse);
@@ -74,7 +89,9 @@ $('#r7').click(() => {
 
 $('#r8').click(() => {
     setTimeout(() => {
-        $('#question4').fadeTo('slow', 0);
+        $('#question4').css('display', 'none');
+        $('#question5').css('display', 'flex');
+        question.innerHTML = "Question 5";
     }, 1000)
     compteur++;
 })
@@ -82,7 +99,9 @@ $('#r8').click(() => {
 //Question 5
 $('#r9').click(() => {
     setTimeout(() => {
-        $('#question5').fadeTo('slow', 0);
+        $('#question5').css('display', 'none');
+        $('#question6').css('display', 'flex');
+        question.innerHTML = "Question 6";
     }, 1000)
     reponse = reponse + question9;
     console.log(reponse);
@@ -90,7 +109,9 @@ $('#r9').click(() => {
 
 $('#r10').click(() => {
     setTimeout(() => {
-        $('#question5').fadeTo('slow', 0);
+        $('#question5').css('display', 'none');
+        $('#question6').css('display', 'flex');
+        question.innerHTML = "Question 6";
     }, 1000)
     compteur++;
 })
@@ -98,7 +119,9 @@ $('#r10').click(() => {
 //Question 6
 $('#r11').click(() => {
     setTimeout(() => {
-        $('#question6').fadeTo('slow', 0);
+        $('#question6').css('display', 'none');
+        $('#question7').css('display', 'flex');
+        question.innerHTML = "Question 7";
     }, 1000)
     reponse = reponse + question11;
     console.log(reponse);
@@ -106,7 +129,9 @@ $('#r11').click(() => {
 
 $('#r12').click(() => {
     setTimeout(() => {
-        $('#question6').fadeTo('slow', 0);
+        $('#question6').css('display', 'none');
+        $('#question7').css('display', 'flex');
+        question.innerHTML = "Question 7";
     }, 1000)
     compteur++;
 })
@@ -114,7 +139,9 @@ $('#r12').click(() => {
 //Question 7
 $('#r13').click(() => {
     setTimeout(() => {
-        $('#question7').fadeTo('slow', 0);
+        $('#question7').css('display', 'none');
+        $('#question8').css('display', 'flex');
+        question.innerHTML = "Question 8";
     }, 1000)
     reponse = reponse + question13;
     console.log(reponse);
@@ -122,7 +149,9 @@ $('#r13').click(() => {
 
 $('#r14').click(() => {
     setTimeout(() => {
-        $('#question7').fadeTo('slow', 0);
+        $('#question7').css('display', 'none');
+        $('#question8').css('display', 'flex');
+        question.innerHTML = "Question 8";
     }, 1000)
     compteur++;
 })
@@ -130,7 +159,9 @@ $('#r14').click(() => {
 //Question 8
 $('#r15').click(() => {
     setTimeout(() => {
-        $('#question8').fadeTo('slow', 0);
+        $('#question8').css('display', 'none');
+        $('#question9').css('display', 'flex');
+        question.innerHTML = "Question 9";
     }, 1000)
     reponse = reponse + question15;
     console.log(reponse);
@@ -138,7 +169,9 @@ $('#r15').click(() => {
 
 $('#r16').click(() => {
     setTimeout(() => {
-        $('#question8').fadeTo('slow', 0);
+        $('#question8').css('display', 'none');
+        $('#question9').css('display', 'flex');
+        question.innerHTML = "Question 9";
     }, 1000)
     compteur++;
 })
@@ -146,7 +179,9 @@ $('#r16').click(() => {
 //Question 9
 $('#r17').click(() => {
     setTimeout(() => {
-        $('#question9').fadeTo('slow', 0);
+        $('#question9').css('display', 'none');
+        $('#question10').css('display', 'flex');
+        question.innerHTML = "Dernière question";
     }, 1000)
     reponse = reponse + question17;
     console.log(reponse);
@@ -154,7 +189,9 @@ $('#r17').click(() => {
 
 $('#r18').click(() => {
     setTimeout(() => {
-        $('#question9').fadeTo('slow', 0);
+        $('#question9').css('display', 'none');
+        $('#question10').css('display', 'flex');
+        question.innerHTML = "Dernière question";
     }, 1000)
     compteur++;
 })
@@ -162,7 +199,9 @@ $('#r18').click(() => {
 //Question 10
 $('#r19').click(() => {
     setTimeout(() => {
-        $('#question10').fadeTo('slow', 0);
+        $('#question10').css('display', 'none');
+        $('#finish').css('display', 'flex');
+        question.innerHTML = "";
     }, 1000)
     reponse = reponse + question19;
     console.log(reponse);
@@ -170,12 +209,12 @@ $('#r19').click(() => {
 
 $('#r20').click(() => {
     setTimeout(() => {
-        $('#question10').fadeTo('slow', 0);
+        $('#question10').css('display', 'none');
+        $('#finish').css('display', 'flex');
+        question.innerHTML = "";
     }, 1000)
     compteur++;
 })
-
-
 
 
 //QUIZZ Terminé
